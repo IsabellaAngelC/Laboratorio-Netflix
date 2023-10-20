@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="Buttons/netflix-logo.png" alt="Netflix Logo">
+        </div>
+        <ul class="navbar-menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Series</a></li>
+            <li><a href="#">Películas</a></li>
+            <li><a href="#">Mi Lista</a></li>
+        </ul>
+    </nav>
+
+    <div id="banner"></div>
+
+    <div id="recommendedMovies">
+        <h2 class="titleCartHeader">Recommended to you</h2>
+        <div id="recommended"></div>
+    </div>
+
+    <div id="renderMoviesTrending">
+        <h2 class="titleCartHeader">Trending</h2>
+        <div id="trending"></div>
+    </div>
+ 
+ 
+    <script src="dataRecommended.js"></script>
+    <script src="Movie.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
